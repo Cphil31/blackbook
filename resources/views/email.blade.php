@@ -1,6 +1,10 @@
-@extends('template')
-
-@section('contenu')
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
     <br>
     <div class="col-sm-offset-4 col-sm-4">
 		<div class="panel panel-info">
@@ -16,4 +20,6 @@
 			</div>
 		</div>
 	</div>
-@endsection
+	
+</body>
+</html>
