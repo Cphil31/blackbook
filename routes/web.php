@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::resource('user', 'UserController');
+Route::get('email', 'EmailController@getForm');
+Route::post('email', ['uses' => 'EmailController@postForm', 'as' => 'storeEmail']);
